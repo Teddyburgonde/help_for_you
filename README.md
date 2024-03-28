@@ -62,7 +62,7 @@ printf("%d\n", *ptr);
 4. appel la fonction puis re imprime la valeur
    La fonction prends quoi en paramettre ? un int ou un pointeur ?
 ```c
-ft_ft(&....);
+ft_ft(....);
 ```
 5. apres avoir appeler la fonction , imprime sa valeur 
 
