@@ -75,13 +75,13 @@ void   ft_ft(int *nbr)
    *nbr = 42;
 }
 ```
-la tu dois fais la meme chose mais avec plusieurs *
+la tu dois fais la meme chose mais avec plusieurs etoile, 
 *nbr = 42 la il y a une seule etoile car il y avait juste un pointeur qui pointe sur int.
 exemple :
 ```
 *nbr -> c'est un pointeur
-** -> c'est un pointeur de pointeur
-*** -> c'est un pointeur de pointeur de pointeur
+**nbr -> c'est un pointeur de pointeur
+***nbr -> c'est un pointeur de pointeur de pointeur
 etc...
 ```
 
