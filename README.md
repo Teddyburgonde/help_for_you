@@ -66,7 +66,7 @@ ft_ft(....);
 ```
 5. apres avoir appeler la fonction , imprime sa valeur 
 
-##C01 ex2 
+## **C01 ex01** 
 
 1. Dans l'exo d'avant tu avais UN(1) pointeur qui pointer sur un int, cela donner cela
 ```c
