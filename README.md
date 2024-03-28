@@ -68,7 +68,7 @@ ft_ft(....);
 
 ## **C01 ex01** 
 
-1. Dans l'exo d'avant tu avais UN(1) pointeur qui pointer sur un int, cela donner cela
+1. Dans l'exo d'avant tu avais UN(1) pointeur qui pointer sur un int 
 ```c
 void   ft_ft(int *nbr)
 {
