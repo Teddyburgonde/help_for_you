@@ -77,6 +77,39 @@ void   ft_ft(int *nbr)
 ```
 la tu dois fais la meme chose mais avec plusieurs *
 *nbr = 42 la il y a une seule etoile car il y avait juste un pointeur qui pointe sur int.
+exemple :
+```
+*nbr -> c'est un pointeur
+** -> c'est un pointeur de pointeur
+*** -> c'est un pointeur de pointeur de pointeur
+etc...
+```
 
+Main
 
+1. creer 9 pointeurs
 
+```c
+int *ptr1;
+int **ptr2;
+etc...
+```
+2. Faire pointer le pointer vers le pointeur inferieur
+Quand tu veux faire pointer un pointeur vers le variable tu fais
+```c
+ptr = &nomdelavariable
+```
+la c'est la meme chose mais tu fais pointer le pointeur vers le pointeur inferieur et ainsi de suite
+```c
+ptr9 = &ptr8;
+```
+le dernier pointeur doit pointer vers une variable que tu auras donner la valeur 42;
+```c
+ptr1 = &nomdelavariable
+```
+3. imprime la valeur de ptr1
+4. appel la fonction et en parametre donne lui ptr9
+```c
+ft_ultimate_ft(...);
+```
+5. imprime de nouveau la valeur
