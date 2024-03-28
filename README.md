@@ -66,5 +66,17 @@ ft_ft(....);
 ```
 5. apres avoir appeler la fonction , imprime sa valeur 
 
+##C01 ex2 
+
+1. Dans l'exo d'avant tu avais UN(1) pointeur qui pointer sur un int, cela donner cela
+```c
+void   ft_ft(int *nbr)
+{
+   *nbr = 42;
+}
+```
+la tu dois fais la meme chose mais avec plusieurs *
+*nbr = 42 la il y a une seule etoile car il y avait juste un pointeur qui pointe sur int.
+
 
 
