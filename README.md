@@ -107,9 +107,9 @@ le dernier pointeur doit pointer vers une variable que tu auras donner la valeur
 ```c
 ptr1 = &nomdelavariable
 ```
-3. imprime la valeur de ptr1
+3. imprime la valeur de la variable nombre
 4. appel la fonction et en parametre donne lui ptr9
 ```c
 ft_ultimate_ft(...);
 ```
-5. imprime de nouveau la valeur
+5. imprime de nouveau la valeur de nombre
