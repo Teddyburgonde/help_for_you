@@ -1,5 +1,13 @@
 # help_for_you
 
+
+![Screenshot from 2024-03-30 13-23-52](https://github.com/Teddyburgonde/help_for_you/assets/93845046/46413029-f80c-477c-9a9b-2bc6fde14733)
+
+❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌
+
+
+
+
 ## C01 ex00
 
 ceci est le prototype de la fonction 
