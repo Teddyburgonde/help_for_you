@@ -181,17 +181,17 @@ Regarde ce que prends en parametre ta fonction
 > [!IMPORTANT]
 > Dans ta fonction ft_div_mod, Ta un pointeur qui pointe sur un int     ->    int *mod
 
-Dans ton main tu ne dois pas crée des pointeurs mais des int car ta fonction en haut , elle a deja deux pointer qui pointe vers des int donc tu dois crée des int dans le main.
+- Dans ton main tu ne dois pas crée des pointeurs mais des int car ta fonction en haut , elle a deja deux pointer qui pointe vers des int donc tu dois crée des int dans le main.
 
 
-Aussi pour les permettres de pointer sur les int il faut leurs donner l'adresse quand tu fais appelle à ta fonction dans le main.
+- Pour les permettres de pointer sur les int il faut leurs donner l'adresse quand tu fais appelle à ta fonction dans le main.
 On donne l'adresse avec &
 
-La valeur sera stocker dans une variable ( un int ) qui aura stocker la division de tes deux int.
+- La valeur sera stocker dans une variable ( un int ) qui aura stocker la division de tes deux int.
 
-La valeur sera stocker dans une variable ( un int ) qui aura stocker le modulo de tes deux int.
+- La valeur sera stocker dans une variable ( un int ) qui aura stocker le modulo de tes deux int.
 
-Pour résumé dans ton main tu dois avoir que des int. 
+- Pour résumé dans ton main tu dois avoir que des int. 
 
 ## **Print les valeurs**
 
