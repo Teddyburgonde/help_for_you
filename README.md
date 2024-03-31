@@ -175,15 +175,20 @@ Regarde ce que prends en parametre ta fonction
 - Un pointeur 
 - Un autre pointeur
 
-> !IMPORTANT
+> ![IMPORTANT]
 > Dans ta fonction ft_div_mod, Ta un pointeur qui pointe sur un int     ->    int *div
+
+> ![IMPORTANT]
 > Dans ta fonction ft_div_mod, Ta un pointeur qui pointe sur un int     ->    int *mod
 
 Donc si il pointe sur des int il faut creer des int. 
+
 Aussi pour les permettres de pointer sur les int il faut leurs donner l'adresse.
 On donne l'adresse avec &
 
 La valeur sera stocker dans une variable ( un int ) qui aura stocker la division de tes deux int.
+
+
 La valeur sera stocker dans une variable ( un int ) qui aura stocker le modulo de tes deux int.
 
 ## **Print les valeurs**
