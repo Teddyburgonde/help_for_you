@@ -195,7 +195,7 @@ Pour résumé dans ton main tu dois avoir que des int.
 
 ## **Print les valeurs**
 
-pritnf les variables qui ont stocker les resultats et voit si cela te semble juste. 
+printf les variables qui ont stocker les resultats et voit si cela te semble juste. 
 
 
 
