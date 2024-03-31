@@ -121,3 +121,75 @@ ptr1 = &nomdelavariable
 ft_ultimate_ft(...);
 ```
 5. imprime de nouveau la valeur de nombre
+
+## c01 ex03
+
+## **Un peu de math** 
+
+## **La division** 
+
+```
+11 diviser par 2 = 5,5
+```
+Mais en informatique 
+```
+5 = 11 diviser par 2
+```
+2 choses : 
+   1. Vous voyez en informatique il y a pas de virgule.
+   2. la variable qui va stocker le resultat est au debut , exemple    result = 11 / 2; et donc resultat contiendra la valeur 5.
+
+## **Le modulo** 
+
+Définition : Le modulo c'est le reste de la division. 
+En informatique % cela veut dire modulo et non pas pourcentage.
+par exemple : 
+```
+result = 11 % 2
+
+result est egal a 1
+```
+
+Voila un lien pour faire des calcul avec du modulo
+```
+https://www.dcode.fr/calculatrice-modulo-n 
+```
+
+## **Le prototype** 
+
+```
+void    ft_div_mod(int a, int b, int *div, int *mod)
+```
+
+## **Commençons**
+
+1. Tu dois diviser a par b et le stocker dans le pointeur div;
+2. Tu dois faire modulo de a par b et le stocker dans le pointeur mod;
+
+
+## **Le main**
+
+Regarde ce que prends en parametre ta fonction 
+- un int
+- un autre int
+- Un pointeur 
+- Un autre pointeur
+
+> !IMPORTANT
+> Dans ta fonction ft_div_mod, Ta un pointeur qui pointe sur un int     ->    int *div
+> Dans ta fonction ft_div_mod, Ta un pointeur qui pointe sur un int     ->    int *mod
+
+Donc si il pointe sur des int il faut creer des int. 
+Aussi pour les permettres de pointer sur les int il faut leurs donner l'adresse.
+On donne l'adresse avec &
+
+La valeur sera stocker dans une variable ( un int ) qui aura stocker la division de tes deux int.
+La valeur sera stocker dans une variable ( un int ) qui aura stocker le modulo de tes deux int.
+
+## **Print les valeurs**
+
+pritnf les variables qui ont stocker les resultats et voit si cela te semble juste. 
+
+
+
+
