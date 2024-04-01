@@ -226,13 +226,20 @@ while (1. // condition d'arret)
 }
 ```
 
-## **comment parcours tout un tableau**
+## **Comment parcours tout un tableau**
 
 ```
 while (str[i] != '\0')
 ```
+La il vas parcourir chaque lettre que contient le tableau str ,
+par exemple si il y a "SALUT" a linterieur
+str[i] sera d'abord egal à  S
+puis le i++ (il augmente ) donc str[i] sera egal à  A
+et si str[i] est egal a '\0' (a la fin de chaque tableau de char il y a ce caractere la ) ben la boucle s'arrete.
 
-Analyse du prototype 
+La on parcours tant que str[i] est different de '\0'
+
+## Analyse du prototype 
 ```c
 void ft_putstr(char *str);
 ```
