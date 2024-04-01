@@ -202,6 +202,20 @@ printf les variables qui ont stocker les resultats et voit si cela te semble jus
 
 ## **Revision des bases**
 
+## **write**
+
+```c
+// 1 c'est la où tu veux que write ecris , 1 coresponds au terminal
+
+// & c'est adresse de la variable que tu veux ecrire
+
+// 1 le nombre de caractere que tu veux ecrire
+write (1, &..., 1);
+```
+garde en tête que write imprime un caractere.
+
+## **Boucle**
+
 Une boucle permet de repeter un ou des instructions.
 Elle est composé de 3 parties :
 ```c
@@ -218,8 +232,6 @@ while (1. // condition d'arret)
 while (str[i] != '\0')
 ```
 
-
-
 Analyse du prototype 
 ```c
 void ft_putstr(char *str);
@@ -230,14 +242,11 @@ Mais pour l'instant dit toi que quand tu vois un char * c'est un tableau.
 
 donc on a un tableau en argument d'entrer.
 
-## Imprimer un caractere
+## Le main
 
-- comment tu imprime juste un caractere ? avec quel fonction ?
+Tu as juste a appeler ta fonction est ecrire dedans un mot ou une phrase
 
-## Imprimer plusieurs caractere un par un 
-
-- quel notion te permet de repeter une instruction ?
-
-Donc ce que tu as fais dans l'etape que tu imprimer un seul caractere , tu dois faire en sorte qu'il repete.
-
+```c
+ft_putstr("salut");
+```
 
