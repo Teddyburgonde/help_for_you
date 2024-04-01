@@ -198,5 +198,46 @@ On donne l'adresse avec &
 printf les variables qui ont stocker les resultats et voit si cela te semble juste. 
 
 
+## **c01 ex05**
+
+## **Revision des bases**
+
+Une boucle permet de repeter un ou des instructions.
+Elle est composé de 3 parties :
+```c
+while (1. // condition d'arret)
+{
+   // 2.une instruction
+   // 3. un incrementateur i++;
+}
+```
+
+## **comment parcours tout un tableau**
+
+```
+while (str[i] != '\0')
+```
+
+
+
+Analyse du prototype 
+```c
+void ft_putstr(char *str);
+```
+
+en argument d'entrer c'est un pointeur.
+Mais pour l'instant dit toi que quand tu vois un char * c'est un tableau. 
+
+donc on a un tableau en argument d'entrer.
+
+## Imprimer un caractere
+
+- comment tu imprime juste un caractere ? avec quel fonction ?
+
+## Imprimer plusieurs caractere un par un 
+
+- quel notion te permet de repeter une instruction ?
+
+Donc ce que tu as fais dans l'etape que tu imprimer un seul caractere , tu dois faire en sorte qu'il repete.
 
 
