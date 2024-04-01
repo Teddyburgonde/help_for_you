@@ -226,7 +226,7 @@ while (1. // condition d'arret)
 }
 ```
 
-## **Comment parcours tout un tableau**
+## **Comment parcourir tout un tableau**
 
 ```
 while (str[i] != '\0')
