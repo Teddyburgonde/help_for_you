@@ -221,8 +221,8 @@ Elle est composé de 3 parties :
 ```c
 while (1. // condition d'arret)
 {
-   // 2.une instruction
-   // 3. un incrementateur i++;
+   2. // une instruction
+   3. //  un incrementateur i++;
 }
 ```
 
