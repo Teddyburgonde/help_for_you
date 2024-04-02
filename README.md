@@ -1,9 +1,105 @@
-# help_for_you
+# HELP
+
+**c01 ex07**
+
+## **Explication du resultat attendu** 
+
+Tu auras un tableau de int et dans ce tableau il y aura des valeurs , comme par exemple
+```
+1, 2, 3, 4, 5
+```
+et ton but c'est inverser l'ordre des elemens pour que au final cela te donne
+```
+5, 4, 3, 2, 1
+```
+## **Une fonction qui inverse deux elements**
+
+- Est ce que tu te rappelle d'une fonction qui inverse deux ?
+
+## Utilisation d'une fonction que tu as deja coder 
+
+tu fais un copier coller dans ton code de la fonction
+puis tu l'appel dans la fonction que tu es en train de faire.
+
+![Screenshot from 2024-04-02 22-29-32](https://github.com/Teddyburgonde/help_for_you/assets/93845046/802109ed-74ad-4070-8a43-be476a735576)
+
+
+## deux iterateurs 
+
+- Une bonne strategie c'est d'avoir deux itérateurs, un qui commence au debut
+et l'autre a la fin.
+
+![Screenshot from 2024-04-02 22-18-35](https://github.com/Teddyburgonde/help_for_you/assets/93845046/66805d79-af0a-4cad-8771-822d0314c742)
+
+
+- Le but c'est d'échanger les valeurs qui sont a index de i avec celui de index j
+- Puis faire monter le i en faisant i++ et faire decendre le j en faisant j--
+
+![Screenshot from 2024-04-02 22-19-55](https://github.com/Teddyburgonde/help_for_you/assets/93845046/782f84d9-df93-439f-b848-7c0d1749e185)
+
+## condition d'arret du while
+```
+while (i < j)
+```
+A force de faire monter le i et faire descendre le j , les deux vont se rejoindre et donc la boucle
+s'arretera.
+
+## **comment placer le j a la fin ?**
+
+```
+j = size - 1;
+```
+prends un tableau de int avec 5 elements 
+la size sera egal a 5
+et pour placer le j a la fin on fait size - 1 car il faut pas oublier que dans un tableau le premier
+element est a l'index 0. 
+
+
+## **Main**
+
+## **Différence entre un tableau de char et de int**
+
+un tableau de char tu l'ecris
+```
+char str[] = "salut";
+```
+à la fin d'un tableau de char il y a un '\0'
+Tu ne le vois pas mais l'ordinateur le met automatiquement dans la memoire et c'est comme cela qu'il
+sait que c'est la fin du mot.
+
+Un tableau de int il y a pas de '\0'.
+Un tableau de int il faut utiliser une size.
+Par exemple ton tableau contient :
+```
+1, 2, 3, 4, 5
+```
+il a une size de 5 car il a 5 element a l'interieur.
+
+## **Déclarer un tableau de int**
+
+```c
+// le type,  le nom et on met les valeurs dans des {} separer par une virgule
+int tab[] = {1, 2, 3, 4 , 5};
+```
+
+## **Imprimer un tableau de int**
+
+Si tu as 10 elements dans ton tableau 
+tu met size = 10;
+while (i < size)
+{
+	printf("%d", tab[i]);
+	i++;
+}
+
+
+
+❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌
+
 
 
 ![Screenshot from 2024-03-30 13-23-52](https://github.com/Teddyburgonde/help_for_you/assets/93845046/46413029-f80c-477c-9a9b-2bc6fde14733)
 
-❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌
 
 
 
@@ -256,94 +352,16 @@ Tu as juste a appeler ta fonction est ecrire dedans un mot ou une phrase
 ```c
 ft_putstr("salut");
 ```
-**c01 ex07**
-
-## **Explication du resultat attendu** 
-
-Tu auras un tableau de int et dans ce tableau il y aura des valeurs , comme par exemple
-```
-1, 2, 3, 4, 5
-```
-et ton but c'est inverser l'ordre des elemens pour que au final cela te donne
-```
-5, 4, 3, 2, 1
-```
-## **Une fonction qui inverse deux elements**
-
-- Est ce que tu te rappelle d'une fonction qui inverse deux ?
-
-## Utilisation d'une fonction que tu as deja coder 
-
-tu fais un copier coller dans ton code de la fonction
-puis tu l'appel dans la fonction que tu es en train de faire.
-
-![Screenshot from 2024-04-02 22-29-32](https://github.com/Teddyburgonde/help_for_you/assets/93845046/802109ed-74ad-4070-8a43-be476a735576)
 
 
-## deux iterateurs 
-
-- Une bonne strategie c'est d'avoir deux itérateurs, un qui commence au debut
-et l'autre a la fin.
-
-![Screenshot from 2024-04-02 22-18-35](https://github.com/Teddyburgonde/help_for_you/assets/93845046/66805d79-af0a-4cad-8771-822d0314c742)
 
 
-- Le but c'est d'échanger les valeurs qui sont a index de i avec celui de index j
-- Puis faire monter le i en faisant i++ et faire decendre le j en faisant j--
-
-![Screenshot from 2024-04-02 22-19-55](https://github.com/Teddyburgonde/help_for_you/assets/93845046/782f84d9-df93-439f-b848-7c0d1749e185)
-
-## condition d'arret du while
-```
-while (i < j)
-```
-A force de faire monter le i et faire descendre le j , les deux vont se rejoindre et donc la boucle
-s'arretera.
-
-## **comment placer le j a la fin ?**
-
-```
-j = size - 1;
-```
-prends un tableau de int avec 5 elements 
-la size sera egal a 5
-et pour placer le j a la fin on fait size - 1 car il faut pas oublier que dans un tableau le premier
-element est a l'index 0. 
 
 
-## **Main**
 
-## **Différence entre un tableau de char et de int**
 
-un tableau de char tu l'ecris
-```
-char str[] = "salut";
-```
-à la fin d'un tableau de char il y a un '\0'
-Tu ne le vois pas mais l'ordinateur le met automatiquement dans la memoire et c'est comme cela qu'il
-sait que c'est la fin du mot.
 
-Un tableau de int il y a pas de '\0'.
-Un tableau de int il faut utiliser une size.
-Par exemple ton tableau contient :
-```
-1, 2, 3, 4, 5
-```
-il a une size de 5 car il a 5 element a l'interieur.
 
-## **Déclarer un tableau de int**
 
-```c
-// le type,  le nom et on met les valeurs dans des {} separer par une virgule
-int tab[] = {1, 2, 3, 4 , 5};
-```
 
-## **Imprimer un tableau de int**
 
-Si tu as 10 elements dans ton tableau 
-tu met size = 10;
-while (i < size)
-{
-	printf("%d", tab[i]);
-	i++;
-}
