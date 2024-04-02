@@ -38,7 +38,7 @@ et l'autre a la fin.
 ![Screenshot from 2024-04-02 22-19-55](https://github.com/Teddyburgonde/help_for_you/assets/93845046/782f84d9-df93-439f-b848-7c0d1749e185)
 
 ## condition d'arret du while
-```
+```c
 while (i < j)
 ```
 A force de faire monter le i et faire descendre le j , les deux vont se rejoindre et donc la boucle
@@ -46,7 +46,7 @@ s'arretera.
 
 ## **comment placer le j a la fin ?**
 
-```
+```c
 j = size - 1;
 ```
 prends un tableau de int avec 5 elements 
@@ -60,7 +60,7 @@ element est a l'index 0.
 ## **Différence entre un tableau de char et de int**
 
 un tableau de char tu l'ecris
-```
+```c
 char str[] = "salut";
 ```
 à la fin d'un tableau de char il y a un '\0'
@@ -86,11 +86,14 @@ int tab[] = {1, 2, 3, 4 , 5};
 
 Si tu as 10 elements dans ton tableau 
 tu met size = 10;
+
+```c
 while (i < size)
 {
 	printf("%d", tab[i]);
 	i++;
 }
+```
 
 ---------------------------------------------------------------------------------------------------------------
 
