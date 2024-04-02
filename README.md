@@ -92,13 +92,7 @@ while (i < size)
 	i++;
 }
 
-
-
-❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌
-
-
-
-![Screenshot from 2024-03-30 13-23-52](https://github.com/Teddyburgonde/help_for_you/assets/93845046/46413029-f80c-477c-9a9b-2bc6fde14733)
+---------------------------------------------------------------------------------------------------------------
 
 
 
@@ -353,6 +347,7 @@ Tu as juste a appeler ta fonction est ecrire dedans un mot ou une phrase
 ft_putstr("salut");
 ```
 
+![Screenshot from 2024-03-30 13-23-52](https://github.com/Teddyburgonde/help_for_you/assets/93845046/46413029-f80c-477c-9a9b-2bc6fde14733)
 
 
 
