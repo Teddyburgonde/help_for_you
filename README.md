@@ -249,11 +249,71 @@ Mais pour l'instant dit toi que quand tu vois un char * c'est un tableau.
 
 donc on a un tableau en argument d'entrer.
 
-## Le main
+## **Le main**
 
 Tu as juste a appeler ta fonction est ecrire dedans un mot ou une phrase
 
 ```c
 ft_putstr("salut");
 ```
+**c01 ex07**
 
+## **Explication du resultat attendu** 
+
+Tu auras un tableau de int et dans ce tableau il y aura des valeurs , comme par exemple
+```
+1, 2, 3, 4, 5
+```
+et ton but c'est inverser l'ordre des elemens pour que au final cela te donne
+```
+5, 4, 3, 2, 1
+```
+
+## **Main**
+
+## **Diférence entre un tableau de char et de int**
+
+un tableau de char tu l'ecris
+```
+char str[] = "salut";
+```
+à la fin d'un tableau de char il y a un '\0'
+Tu ne le vois pas mais l'ordinateur le met automatiquement dans la memoire et c'est comme cela qu'il
+sait que c'est la fin du mot.
+
+Un tableau de int il y a pas de '\0'.
+Un tableau de int il faut utiliser une size.
+Par exemple ton tableau contient :
+```
+1, 2, 3, 4, 5
+```
+il a une size de 5 car il a 5 element a l'interieur.
+
+## **Déclarer un tableau de int**
+
+```c
+// le type,  le nom et on met les valeurs dans des {} separer par une virgule
+int tab[] = {1, 2, 3, 4 , 5};
+```
+
+## **Imprimer un tableau de int**
+
+Si tu as 10 elements dans ton tableau 
+tu met size = 10;
+while (i < size)
+{
+	printf("%d", tab[i]);
+	i++;
+}
+
+
+
+```
+
+```
+
+
+
+```
+
+```
