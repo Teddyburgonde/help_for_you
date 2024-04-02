@@ -1,6 +1,6 @@
 # HELP
 
-**c01 ex07**
+**c01 ex07 ft_rev_int_tab**
 
 ## **Explication du resultat attendu** 
 
