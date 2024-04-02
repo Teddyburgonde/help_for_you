@@ -270,7 +270,15 @@ et ton but c'est inverser l'ordre des elemens pour que au final cela te donne
 ```
 ## **Une fonction qui inverse deux elements**
 
-- Est ce que dans ce que tu as déja creer comme fonction , tu te rappelle d'une fonction qui inverse deux ?
+- Est ce que tu te rappelle d'une fonction qui inverse deux ?
+
+## Utilisation d'une fonction que tu as deja coder 
+
+tu fais un copier coller dans ton code de la fonction
+puis tu l'appel dans la fonction que tu es en train de faire.
+
+![Screenshot from 2024-04-02 22-29-32](https://github.com/Teddyburgonde/help_for_you/assets/93845046/802109ed-74ad-4070-8a43-be476a735576)
+
 
 ## deux iterateurs 
 
@@ -294,14 +302,13 @@ s'arretera.
 
 ## **comment placer le j a la fin ?**
 
+```
 j = size - 1;
-
+```
 prends un tableau de int avec 5 elements 
 la size sera egal a 5
 et pour placer le j a la fin on fait size - 1 car il faut pas oublier que dans un tableau le premier
 element est a l'index 0. 
-
-
 
 
 ## **Main**
@@ -340,15 +347,3 @@ while (i < size)
 	printf("%d", tab[i]);
 	i++;
 }
-
-
-
-```
-
-```
-
-
-
-```
-
-```
