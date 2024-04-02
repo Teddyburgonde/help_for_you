@@ -268,10 +268,45 @@ et ton but c'est inverser l'ordre des elemens pour que au final cela te donne
 ```
 5, 4, 3, 2, 1
 ```
+## **Une fonction qui inverse deux elements**
+
+- Est ce que dans ce que tu as déja creer comme fonction , tu te rappelle d'une fonction qui inverse deux ?
+
+## deux iterateurs 
+
+- Une bonne strategie c'est d'avoir deux itérateurs, un qui commence au debut
+et l'autre a la fin.
+
+![Screenshot from 2024-04-02 22-18-35](https://github.com/Teddyburgonde/help_for_you/assets/93845046/66805d79-af0a-4cad-8771-822d0314c742)
+
+
+- Le but c'est d'échanger les valeurs qui sont a index de i avec celui de index j
+- Puis faire monter le i en faisant i++ et faire decendre le j en faisant j--
+
+![Screenshot from 2024-04-02 22-19-55](https://github.com/Teddyburgonde/help_for_you/assets/93845046/782f84d9-df93-439f-b848-7c0d1749e185)
+
+## condition d'arret du while
+```
+while (i < j)
+```
+A force de faire monter le i et faire descendre le j , les deux vont se rejoindre et donc la boucle
+s'arretera.
+
+## **comment placer le j a la fin ?**
+
+j = size - 1;
+
+prends un tableau de int avec 5 elements 
+la size sera egal a 5
+et pour placer le j a la fin on fait size - 1 car il faut pas oublier que dans un tableau le premier
+element est a l'index 0. 
+
+
+
 
 ## **Main**
 
-## **Diférence entre un tableau de char et de int**
+## **Différence entre un tableau de char et de int**
 
 un tableau de char tu l'ecris
 ```
