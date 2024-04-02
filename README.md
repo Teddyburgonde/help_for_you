@@ -14,7 +14,7 @@ et ton but c'est inverser l'ordre des elemens pour que au final cela te donne
 ```
 ## **Une fonction qui inverse deux elements**
 
-- Est ce que tu te rappelle d'une fonction qui inverse deux ?
+- Est ce que tu te rappelle d'une fonction qui inverse deux élements ?
 
 ## Utilisation d'une fonction que tu as deja coder 
 
