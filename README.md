@@ -1,5 +1,56 @@
 # HELP
 
+**C02 ex02 ft_str_is_alpha**
+
+Cette page doit etre tout le temps ouverte sur chaque exercice dorénavant.
+```
+https://fr.wikipedia.org/wiki/Fichier:ASCII-Table-wide.svg
+```
+
+**Ce qu'on veut faire**
+
+1. Parcourir un tableau
+2. Si tu trouve une lettre tu return 1
+3. si rien aucune lettre a eté trouver on return 0
+
+**##tableau vide**
+
+un tab vide c'est é
+
+
+
+**Trouver les decimals qui concerne les lettres**
+
+La table ascii c'est une corespondance entre des valeurs decimal et des char.
+
+Exemples
+
+```
+33 en decimal il corespond au char !
+35 en decimal il corespond au char #
+```
+**Quand tu as trouver les valeurs decimal que tu veux**
+
+exemple si je veux utiliser que des chiffres 
+```c
+if (str[i] >= 48 && str[i] <= 57)
+{
+	i++;
+}
+else
+{
+	return (0);
+}
+//si on sort de la boucle on met
+return (1);
+// si on return (0) c'est qu'il a trouver autre chose que des chiffres. 
+
+```
+
+
+
+
+
 **C02 ex00 ft_strcpy**
 
 **Analyse du prototype**
