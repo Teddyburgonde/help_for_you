@@ -15,8 +15,10 @@ https://fr.wikipedia.org/wiki/Fichier:ASCII-Table-wide.svg
 
 **##tableau vide**
 
-un tab vide c'est é
+un tab vide c'est équivalent à 
 
+i = 0;
+str[i] = '\0'; 
 
 
 **Trouver les decimals qui concerne les lettres**
