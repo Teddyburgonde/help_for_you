@@ -10,16 +10,18 @@ https://fr.wikipedia.org/wiki/Fichier:ASCII-Table-wide.svg
 **Ce qu'on veut faire**
 
 1. Parcourir un tableau
-2. Si tu trouve une lettre tu return 1
-3. si rien aucune lettre a eté trouver on return 0
+2. Si tu trouve une lettre tu continue
+3. Sinon tu return 0
+4. Apres la boucle si rien a etait return , tu return 1
 
-**##tableau vide**
+**Tableau vide**
 
-un tab vide c'est équivalent à 
+Un tab vide c'est équivalent à :
 
+```c
 i = 0;
 str[i] = '\0'; 
-
+```
 
 **Trouver les decimals qui concerne les lettres**
 
@@ -49,9 +51,9 @@ return (1);
 
 ```
 
-
-
-
+## **Main**
+1. Tu cree un tableau avec ce que tu veux dedans
+2. tu utilises printf("%d", le_nom_de_ta_fonction(...));
 
 **C02 ex00 ft_strcpy**
 
