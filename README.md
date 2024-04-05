@@ -46,8 +46,8 @@ dest = src , Cela ne fonctionnera pas !
 C'est un ensemble de charactere et qui se termine par un '\0'
 ```
 
-Si tu decides de copier tab_denvoi dans tab_de_reception
-tab_denvoi contient "salut"
+Si tu decides de copier tab_denvoi , dans tab_de_reception , 
+tab_denvoi , contient "salut"
 tab_de_reception est vide. ( pas vraiment , il faut pas oublier que dedans il y a le '\0')
 
 pendant la copie 
