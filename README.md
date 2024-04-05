@@ -10,9 +10,9 @@ https://fr.wikipedia.org/wiki/Fichier:ASCII-Table-wide.svg
 **Ce qu'on veut faire**
 
 1. Parcourir un tableau
-2. Si tu trouve une lettre tu continue
-3. Sinon tu return 0
-4. Apres la boucle si rien a etait return , tu return 1
+2. Si on trouve une lettre tu continue
+3. Sinon on return 0
+4. Apres la boucle si rien a etait return , on return 1
 
 **Tableau vide**
 
