@@ -51,8 +51,8 @@ tab_denvoi , contient "salut"
 tab_de_reception est vide. ( pas vraiment , il faut pas oublier que dedans il y a le '\0')
 
 pendant la copie 
-le "s" entrera dans tab_de_reception et ecrasera le '\0'.
-Donc a la fin il y a le mot "salut" a l'interieur de tab_de_reception
+le "s" entrera dans tab_de_reception , et ecrasera le '\0'.
+Donc a la fin il y a le mot "salut" a l'interieur de tab_de_reception ,
 mais le '\0' n'a pas eté copié.
 
 **Rajouter un '\0'**
