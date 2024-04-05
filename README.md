@@ -1,5 +1,73 @@
 # HELP
 
+**C02 ex00 ft_strcpy**
+
+**Analyse du prototype**
+
+```c
+char *ft_strcpy(char *dest, char *src)
+// il y a deux tableaux
+// un tableau destination
+// et un tableau source
+```
+
+**Ce qu'on doit faire** 
+
+```
+- On doit copier tout ce qui se trouve dans le tableau de src et le mettre dans dest.
+- On copie element par element.
+```
+
+**Exemple de copie** 
+
+```
+int a;
+int b;
+
+a = 10;
+b = 50;
+
+
+a = b;
+// la nouvelle valeur de a est de 50.
+
+```
+
+** Attention **
+
+```
+- Encore une fois la copie se fais element par element
+dest = src , Cela ne fonctionnera pas !
+```
+
+**Définition dun tableau de char**
+
+```
+C'est un ensemble de charactere et qui se termine par un '\0'
+```
+
+Si tu decides de copier tab_denvoi dans tab_de_reception
+tab_denvoi contient "salut"
+tab_de_reception est vide. ( pas vraiment , il faut pas oublier que dedans il y a le '\0')
+
+pendant la copie 
+le "s" entrera dans tab_de_reception et ecrasera le '\0'.
+Donc a la fin il y a le mot "salut" a l'interieur de tab_de_reception
+mais le '\0' n'a pas eté copié.
+
+**Rajouter un '\0'**
+
+Apres la boucle ecrire 
+
+```
+dest[i] = '\0';
+```
+
+
+
+
+
+
 **c01 ex07 ft_rev_int_tab**
 
 ## **Explication du resultat attendu** 
