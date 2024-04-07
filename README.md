@@ -118,7 +118,35 @@ Apres la boucle ecrire
 dest[i] = '\0';
 ```
 
+##c02 ex07 ft_strupcase 
 
+pour mettre en majuscule une lettre c'est -= 32
+
+par exemple : 
+
+```
+str[i] -= 32
+```
+
+##c02 ex08 ft_strupcase 
+
+pour mettre en minuscule une lettre c'est += 32
+
+par exemple : 
+
+```
+str[i] += 32
+```
+##c02 ex09 ft_strcapitalize
+
+La strategie : 
+
+```
+Il faut parcourrir a chaque fois le tableau ( donc parcourrir en 3 fois).
+1. Mettre toute les lettres en minuscule
+2. Mettre la premiere lettre en majuscule
+3. Apres chaque espace si le caractere suivant est une lettre on la met en majuscule.
+```
 
 
 
