@@ -146,6 +146,7 @@ Il faut parcourrir a chaque fois le tableau ( donc parcourrir en 3 fois).
 1. Mettre toute les lettres en minuscule
 2. Mettre la premiere lettre en majuscule
 3. Apres chaque espace si le caractere suivant est une lettre on la met en majuscule.
+Pour dire que c'est le caractere suivant c'est str[i + 1] 
 ```
 
 
