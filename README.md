@@ -27,8 +27,10 @@ des qu'il y a une difference la boucle s'arrete.
 
 ## Main tester avec la vrai fonction
 
+```c
 #include string.h
 printf("%d\n", strcmp(s1, s2));
+```
 
 tu test aussi la tienne et si les deux renvois le meme resultat a chaque fois c'est que c'est bon.
 
