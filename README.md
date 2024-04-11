@@ -1,6 +1,6 @@
 # HELP
 
-**C03 ex00 ft_strcmp
+** C03 ex00 ft_strcmp
 
 Le but de la fonction 
 
