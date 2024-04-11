@@ -1,5 +1,40 @@
 # HELP
 
+**C03 ex00 ft_strcmp
+
+Le but de la fonction 
+
+```
+- Elle prends deux chaines de caracteres et les compares
+- Si il y a une difference tu return la difference.
+- Si tu n'a pas trouver de difference tu return 0
+```
+## **Une difference**
+
+```
+Une difference c'est une soustraction
+```
+
+**exemple**
+
+```
+salut    sblut
+Ici il y a une difference de 1.
+```
+
+des qu'il y a une difference la boucle s'arrete.
+
+
+## Main tester avec la vrai fonction
+
+#include string.h
+printf("%d\n", strcmp(s1, s2));
+
+tu test aussi la tienne et si les deux renvois le meme resultat a chaque fois c'est que c'est bon.
+
+
+
+
 **C02 ex02 ft_str_is_alpha**
 
 Cette page doit etre tout le temps ouverte sur chaque exercice dorénavant.
