@@ -44,6 +44,8 @@ une autre pour le 6
 une autre pour le 7
 ```
 > [!IMPORTANT]
+> Comme on connait pas à l'avance de chiffre , pour calculer la size qu'on aura besoin on peut
+> faire size = max - min; 
 > Il n'y pas de '\0' dans une tableau de int. 
 
 ## 4eme étape Protection du malloc 
