@@ -1,6 +1,6 @@
 # HELP
 
-** C07 ex01 ft_range
+## C07 ex01 ft_range
 
 C'est quoi une range ? 
 C'est une plage de valeur entre deux extremitié.
