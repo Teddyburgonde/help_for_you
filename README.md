@@ -1,5 +1,69 @@
 # HELP
 
+** C07 ex01 ft_range
+
+C'est quoi une range ? 
+C'est une plage de valeur entre deux extremitié.
+
+Exemple :  
+min = 5 inclus et max = 10.
+
+Je dois imprimer la range entre min et max inclus.
+
+```c
+5 6 7 8 9 10 
+```
+
+Autre exemple 
+min = -2(inclus) et max 4 (exclu)
+
+```c
+-2 -1 0 1 2 3 
+```
+
+## 1ere étape Protection 
+
+"Si la valeur min est supérieure ou égale à la valeur max, un pointeur nul sera
+retourné."
+
+```c
+Le gerer dans un if
+```
+
+## 2eme étape Allocation mémoire 
+
+Dans quoi va t'on stocké ces chiffres ? 
+Alloué la bonne taille de mémoire. 
+
+Exemple : 
+Si min vaut 5(inclu) et max vaut 8(exclu) il y aura 3 case a reserver 
+
+```c
+Une case pour le 5
+une autre pour le 6
+une autre pour le 7
+```
+> [!IMPORTANT]
+> Il n'y pas de '\0' dans une tableau de int. 
+
+## 4eme étape Protection du malloc 
+
+```c
+Si le malloc n'a pas fonctionner on renvoie NULL.
+```
+
+## 5eme etape Impression 
+
+```c
+tant que min et inferieur a max on imprime les valeurs
+```
+
+
+---------------------------------------------------------------------------------------------
+
+
+
+
 ** C03 ex00 ft_strcmp
 
 Le but de la fonction 
