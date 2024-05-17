@@ -1,5 +1,31 @@
 # HELP
 
+## C07 ex02 ft_ultimate_range
+
+C'est quasiment la meme chose, c'est exactement la meme logique que l'exo précédent. 
+Trois choses change : 
+1 :
+
+```c
+Tu n'as pas besoin de creer un tableau , tu dois utiliser ce tableau (int **range)
+```
+2 : 
+```c
+C'est ce tableau int **range que tu dois malloc. La seule difference c'est que a chaque fois
+que tu ecriras range = quelque chose , devant range tu dois mettre une etoile.
+exemple
+*range = quelque chose.
+```
+
+3 :
+```c
+dans ta boucle la synstaxe c'est (*range)[i] = min
+```
+4 : 
+```c
+La valeur que tu dois retourner c'est la size
+```
+
 ## C07 ex01 ft_range
 
 C'est quoi une range ? 
