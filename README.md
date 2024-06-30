@@ -1,5 +1,5 @@
 # HELP
-
+En esperant que cela t'aide
 ## C07 ex02 ft_ultimate_range
 
 C'est quasiment la meme chose, c'est exactement la meme logique que l'exo précédent. 
