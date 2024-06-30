@@ -1,4 +1,5 @@
 # HELP
+exercice pour la piscine
 En esperant que cela t'aide
 ## C07 ex02 ft_ultimate_range
 
